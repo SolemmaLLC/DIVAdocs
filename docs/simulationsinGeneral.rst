@@ -88,7 +88,7 @@ The dimensions of your output image can be set here. Values are entered in pixel
 
 Cleanup Temporary Directory
 ----------------------------
-Selecting this option will automatically clean up unnecessary files from the C:\DIVA\Temp\[RhinoFilename] directory.
+Selecting this option will automatically clean up unnecessary files from the C:\\\DIVA\\\Temp\\\[RhinoFilename] directory.
 
 
 

@@ -20,7 +20,7 @@ Most luminaire manufacturers provide IES format files for their products. In thi
 
 Furthermore, I built a small test room ideal for loading in IES files because its ceiling is slightly higher than Z=0, where IES files center the 'rough geometry' they contain. This file can be downloaded from the following links: Rhino 4 version, Rhino 5 version.
 
-I recommend to save the three files (2 IES files and 1 Rhino file) to a folder which you can easily access from the command prompt. In Windows 8 you can create a command prompt easily in any folder, but if you're using an older version, C:\luminaire_test\ will work well.
+I recommend to save the three files (2 IES files and 1 Rhino file) to a folder which you can easily access from the command prompt. In Windows 8 you can create a command prompt easily in any folder, but if you're using an older version, C:\\\luminaire_test\\\ will work well.
 
 The IES Files 
 -----------------------------
@@ -69,7 +69,7 @@ From running these two commands, four files should be created: downlight.dat, do
 
 Step 3: Getting the Radiance data into DIVA
 ------------------------------------------------
-The two DAT files should be copied to the C:\DIVA\Temp\luminaire_test_model_*\ folder. We will be putting them in the Temp folder so that they are only accessible to the current simulation model. If you want to keep a luminaire for all future DIVA models, save the files in C:\DIVA\Radiance\lib\.
+The two DAT files should be copied to the **C:\\\DIVA\\\Temp\\\luminaire_test_model_*\\\** folder. We will be putting them in the Temp folder so that they are only accessible to the current simulation model. If you want to keep a luminaire for all future DIVA models, save the files in **C:\\\DIVA\\\Radiance\\\lib\\\.**
 
 Now that the luminous distribution files are accessible by the simulation program, let's open one of the RAD files in a plain text editor such as Notepad or `Notepad++.`_ I'll use the Microslat downlight as the example here (downlight.rad). You should see the following,
 
@@ -154,7 +154,7 @@ The section described as, "Radiance material definitions that reference downligh
    :scale: 65 %
    :align: center
 
-*Amended material.rad file in the - DIVA\Resources\ folder*
+*Amended material.rad file in the - DIVA\\\Resources\\\folder*
 
 Step 4: Getting the Geometry into DIVA
 -------------------------------------------
@@ -231,6 +231,12 @@ This allows many of the default Radiance ambient parameters that deal with sampl
 **as,** ambient supersamples: if there is a large luminous difference between nearby rays, the number of extra rays to be shot to resolve the transition accurately.
 
 **i,** illuminance boolean trigger: render an illuminance rather than a luminance image
+
+.. figure:: images/falsecolor.jpg
+   :scale: 100 %
+   :align: center
+
+*Falsecolor illuminance distribution of asymmetric downlight*
 
 Concluding Remarks
 ---------------------

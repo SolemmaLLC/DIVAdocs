@@ -8,13 +8,12 @@ LEED Test
 -------------------
 
 Metrics >> Daylight Grid Based >> Point-in-Time Illuminance >> LEED IEQ 8.1
-
 	This simulation tests a model for LEED NC IEQ 8.1 points. Refer to the LEED Guide for modeling information and other requirements.
-	You only need to set your preference for units, respect dynamic shading and geometric modeling. The simulation will run two illuminance tests: September 21 at 9am and 3pm. The simulation tallies the percentage of the total calculation grid area that receives between 10 and 500 footcandles at each point-in-time. In order to qualify for the LEED points, a minimum of 75% of the project must be daylit at both of those times. 
+	You only need to set your preference for units, respect dynamic shading and geometric modeling. The simulation will run **two** illuminance tests: September 21 at 9am and 3pm. The simulation tallies the percentage of the total calculation grid area that receives between 10 and 500 footcandles at each point-in-time. In order to qualify for the LEED points, a minimum of 75% of the project must be daylit at both of those times. 
 	
 LEED Points
 --------------------
-Percentage of area between  10 & 500 fc at 9am and 3pm 
+**Percentage of area between  10 & 500 fc at 9am and 3pm**
 
 - <75%: 0 points
 

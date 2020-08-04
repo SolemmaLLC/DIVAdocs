@@ -1,15 +1,11 @@
 
-===================================
-Welcome to umi Online Documentation
-===================================
 
-Umi is a Rhino-based design environment for `Solemma <https:solemma.com>` xxx.
+Welcome to the DIVA-for-Rhino Documentation
+===================================================
+DIVA-for-Rhino is `Solemma\'\s`_ legacy daylighting and energy modeling plug-in for Rhinoceros. DIVA-for-Rhino allows users to carry out a series of environmental performance evaluations of individual buildings and urban landscapes including Radiation Maps, Photorealistic Renderings, Climate-Based Daylighting Metrics, Annual and Individual Time Step Glare Analysis, LEED and CHPS Daylighting Compliance, and Single Thermal Zone Energy and Load Calculations.
 
-Tito test
+.. _Solemma's: https://www.solemma.com/Diva.html 
 
-Go to `Solemma web page`_
-
-.. _Solemma web page: https://solemma.com/Download.html
 
 
 
@@ -44,7 +40,7 @@ Go to `Solemma web page`_
    Point-in-Time Glare<docs/point-in-timeGlare.rst>
    Annual Glare<docs/annualGlare.rst>
    Daylight Factor and Illuminance<docs/daylightFactorandIlluminance.rst>
-   LEED-IEQ-8.1 Compliance
+   LEED-IEQ-8.1 Compliance<docs/Compliance.rst>
    Climate-Based Metrics<docs/climate-basedMetrics.rst>
    CHPS Simulations<docs/CHPSsimulations.rst>
    Radiation Maps-Grid Based<docs/radiationMaps-Gridbased.rst>

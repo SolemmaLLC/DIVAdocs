@@ -27,7 +27,7 @@ DIVA does not require any specific naming conventions for layers; however, mater
 .. figure:: images/divalayers.jpg
    :scale: 100 %
    :align: center
-   
+
 *Layer panel showing DIVA-Created Layers*
 
 DIVA Layers
@@ -64,7 +64,7 @@ Only geometry on visible, unlocked layers will be exported to Radiance. Keep thi
 
 Remember to always check that your geometry is being exported correctly by running the “Visualization” Metric and performing a visual check.
 
-
+---------
 
 
 
