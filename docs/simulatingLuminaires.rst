@@ -2,7 +2,9 @@
 Simulating Luminaires with IES Files
 ================================================
 Note: 
-	This tutorial is for DIVA-2.0 users. DIVA-3.0 users should use the **Materials > Load IES File** command from the toolbar.
+	A video tutorial on how to set up an electric lighting scene in DIVA-3.0 or DIVA 4.0 can be found `here.`_ The tutorial below applied for DIVA-2.0 users.
+	
+.. _here.: https://www.youtube.com/watch?v=W42ZSmCftkw	
 
 
 Radiance, the simulation engine behind many of DIVA's metrics, is not only constrained to daylight. It is possible to simulate the resulting light distributions from luminaires based on measured data. This is accomplished by associating IES files, a standard file format for the electronic transfer
@@ -16,11 +18,13 @@ of photometric data, with geometry in DIVA. This page serves as a tutorial for g
 
 What You Will Need for This Tutorial
 --------------------------------------------
-Most luminaire manufacturers provide IES format files for their products. In this tutorial I am using two Day-Brite brand luminaires available from Phillips, the MicroSlot (download IES file) and the Designer Asymmetric KSH 3EA Lens Recessed (download IES file).
+Most luminaire manufacturers provide IES format files for their products. In this tutorial we are using two ies files from Phillips. You can go to most lighting manufacturer sites and download ies files of their products.
 
-Furthermore, I built a small test room ideal for loading in IES files because its ceiling is slightly higher than Z=0, where IES files center the 'rough geometry' they contain. This file can be downloaded from the following links: Rhino 4 version, Rhino 5 version.
+Furthermore, I built a small test room ideal for loading in IES files because its ceiling is slightly higher than Z=0, where IES files center the 'rough geometry' they contain. 
 
-I recommend to save the three files (2 IES files and 1 Rhino file) to a folder which you can easily access from the command prompt. In Windows 8 you can create a command prompt easily in any folder, but if you're using an older version, C:\\\luminaire_test\\\ will work well.
+I recommend to download two IES files that you are interested in testing and use a Rhino scene of a simple space such as the `MIT Reference Office.`_ In Windows 8 you can create a command prompt easily in any folder, but if you’re using an older version, C:\\\luminaire_test\\\will work well.
+
+.. _MIT Reference Office.: http://web.mit.edu/sustainabledesignlab/projects/ReferenceOffice/index.html
 
 The IES Files 
 -----------------------------

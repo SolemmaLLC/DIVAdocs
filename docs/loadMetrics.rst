@@ -3,6 +3,12 @@ Load Metrics
 ================================================
 To load previous results into your model, you right-click on the **Metrics** button. The **Choose** and **Load Metrics** boxes are displayed. The Load Metrics box is also displayed when any of the node-based metrics are finished running. The boxes provide options for how the results are displayed, and depend on which metric you are loading.
 
+.. figure:: images/LoadResults.jpg
+   :scale: 100 %
+   :align: center
+
+*Right-click on metrics to load existing simulation results*
+
 **Lighting Test** prompts you to choose which metric to load. Most of these are self-explanatory; however, 'Illuminance from DA' is a new feature which allows visualization of the hourly illuminance results from Daysim / Climate-based metrics.
 
 Choose **Select Metric to Load** if loading a grid-based result.
@@ -14,6 +20,12 @@ Choosing **Climate-Based Falsecolor** will allow an hourly temporal map of clima
    :align: center
 
 *A result of the climate-based falsecolor option*
+
+.. figure:: images/Dialogue.jpg
+   :scale: 100 %
+   :align: center
+
+*Load metrics dialog*
 
 Min/Max Illuminance 
 -----------------------

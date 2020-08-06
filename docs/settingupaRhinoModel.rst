@@ -6,7 +6,9 @@ The following includes information about proper set-up of the Rhino model for us
 
  
 
-If you do not have a rhino model available, the Gund_111.3dm model can be downloaded.
+If you do not have a Rhino model available, the MIT reference model can be downloaded `here.`_
+ 
+ .. _here.: http://web.mit.edu/sustainabledesignlab/projects/ReferenceOffice/index.html
 
  
 

@@ -32,7 +32,9 @@ Conceptual dynamic shading considers the operation of an idealized blind that co
 
 *Choosing workplane sensors is necessary for results with dynamic shading to be meaningful.*
 
-The control of dynamic shading devices uses the Lightswitch algorithm (Reinhart, 2004). If an annual glare calculation has been run, then the predicted occupant discomfort is used to determine whether an occupant will lower a shade or not (lowered when DGP>0.4). Otherwise, occupants decide whether or not to lower the conceptual shading system by the presence of direct sunlight at each time step in the annual simulation. For this, it is necessary to define where occupants sit by choosing workplane sensors. If workplane senors are **not chosen,** then the presence of direct light on any sensor (even those near the window) will cause shading to be lowered. 
+The control of dynamic shading devices uses the Lightswitch algorithm `(Reinhart, 2004).`_ If an annual glare calculation has been run, then the predicted occupant discomfort is used to determine whether an occupant will lower a shade or not (lowered when DGP>0.4). Otherwise, occupants decide whether or not to lower the conceptual shading system by the presence of direct sunlight at each time step in the annual simulation. For this, it is necessary to define where occupants sit by choosing workplane sensors. If workplane senors are **not chosen,** then the presence of direct light on any sensor (even those near the window) will cause shading to be lowered. 
+
+.. _(Reinhart, 2004).: https://www.sciencedirect.com/science/article/abs/pii/S0038092X04000702
 
 Detailed Dynamic Shading 
 -----------------------------------
@@ -40,7 +42,15 @@ Detailed dynamic shading controls have two shading-type modes: Mechanical and Sw
 
 Mechanical Dynamic Shading
 -----------------------------
-Mechanical shading systems take Rhinoceros layers as their input. For example, to model a dynamic venetian blind, it is necessary to actually create the geometry of the blind on a discrete layer and to assign a material to it. Then under the field **Base Geometry Layer,** "No fixed shading state (blank.rad)" will be selected since in the default state the blind is pulled up and is not present in the scene. Under **State 1 Layer,** the Rhino layer with the geometry will be selected.
+Mechanical shading systems take Rhinoceros layers as their input. For example, to model a dynamic venetian blind, it is necessary to actually create the geometry of the blind on a discrete layer and to `assign a material`_ to it. Then under the field **Base Geometry Layer,** "No fixed shading state (blank.rad)" will be selected since in the default state the blind is pulled up and is not present in the scene. Under **State 1 Layer,** the Rhino layer with the geometry will be selected.
+
+.. _assign a material: https://divadocs.readthedocs.io/en/latest/docs/customRadiancematerials.html
+
+.. figure:: images/DynamicMechnaicalShading.jpg
+   :scale: 100 %
+   :align: center
+
+*A dynamic mechanical shading system for a venetian blind*
 
 Switchable Dynamic Shading
 ----------------------------

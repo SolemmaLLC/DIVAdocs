@@ -19,7 +19,9 @@ Location
 ----------------------------------------------------
 The “Project Info” button has two functions. The first is similar to “New File” or “Save As” in other programs. It sets up a folder and a naming convention for results files. The second function is to establish the latitude, longitude and timezone of a project by associating it with a climate (.epw) file. For climate-based simulations and radiation maps, the hourly solar insolation is also read from the EPW file.
 
-The Boston climate file is loaded with the DIVA plug-in into the folder C:\\\DIVA\\\WeatherData. There are a plentiful amount of free EPW files available for download from the US Department of Energy's Website. Save these files to the same C:\\\DIVA\\\WeatherData directory. 
+The Boston climate file is loaded with the DIVA plug-in into the folder C:\\\DIVA\\\WeatherData. There are a plentiful amount of free EPW files available for download from the `US Department of Energy's Website.`_ Save these files to the same C:\\\DIVA\\\WeatherData directory. 
+
+.. _US Department of Energy's Website.: https://energyplus.net/weather 
 
 Nodes
 ------

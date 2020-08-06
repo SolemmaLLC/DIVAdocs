@@ -53,7 +53,6 @@ DIVA-for-Rhino is `Solemma\'\s`_ legacy daylighting and energy modeling plug-in 
    
    Scripts for Converting Geometry<docs/scriptsforConvertingGeometry.rst>
    Understanding Results Files<docs/understandingResultsfiles.rst>
-   Example Models<docs/exampleModels.rst>
    References<docs/references.rst>
    
    

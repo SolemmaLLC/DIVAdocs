@@ -1,6 +1,13 @@
 
 Radiation Maps
 ================================================
+
+.. figure:: images/DIVARadiationMap.jpg
+   :scale: 80 %
+   :align: center
+
+*Example of a radiation map generated in DIVA using rpict and gencumulativesky*
+
 DIVA-for-Rhino can generate climate-specific annual surface irradiation images or calculate annual irradiation at node locations. This is a powerful tool that can be used on an urban or building scale to identify locations with solar energy conversion potential or areas in need of shading due to excessive solar exposure. Comparing summer and winter period irradiation results could help optimize shading devices to maximize winter gain while minimizing summer exposure.
 
 

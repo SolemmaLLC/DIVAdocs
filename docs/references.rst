@@ -6,11 +6,14 @@ Want to know more about Radiance, Daysim, Grasshopper, etc.? Here are some place
 
 	material.rad
 
-	Radiance Online
+	`Radiance Online`_
 
-	Radiance References Page
+	`Radiance References Page`_
 
 	Comprehensive Radiance Manual Index
 
 	Grasshopper Primer (by LIFT Architects)
 
+.. Radiance Online: https:/www.radiance-online.org/
+
+.. Radiance References Page: https://www.radiance-online.org/learning/documentation/references.html

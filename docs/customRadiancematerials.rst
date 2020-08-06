@@ -71,7 +71,10 @@ For an easy way to convert transmission to transmissivity, you can use the Excel
 
  
 
-Download the Excel Transmissivity Converter here.
+Download the Radiance Material Generator `here.`_
+
+.. _here.: http://web.mit.edu/sustainabledesignlab/projects/TeachingResources/RadianceMaterialGenerator.xlsx
+
 
 
 

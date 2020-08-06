@@ -12,6 +12,13 @@ Using  a point-in-time glare simulation in DIVA, the visual comfort of a person 
 *Examples of visual comfort analysis in DIVA.*
 *Areas of high contrast (3 times the mean image luminance) are highlighted in color.*
 
+.. figure:: images/PointGlare.png
+   :scale: 100 %
+   :align: center
+
+*Metrics Menu: Point-in-Time Glare*
+
+
 The **camera type** is automatically changed to a 180 degree fisheye lens for the visual comfort analysis. Multiple camera views can also be selected from the "Select Camera Views" option.
 
 
