@@ -1,6 +1,5 @@
 Installation
 ============
-DIVA version 4 is now installed!
 
 Getting Started
 	We reoccmend that you go through the DIVA tutorials for `Rhino`_ and/or `Grasshopper`_ on the Solemma web site.
@@ -9,7 +8,7 @@ Getting Started
 
 .. _Rhino: https://www.solemma.com/TrainingRhino.html
 
-.. _Grasshoper: https://www.solemma.com/TrainingGH.html
+.. _Grasshopper: https://www.solemma.com/TrainingGH.html
 
 .. _Solemma Symposia/DIVA Days.: https://www.solemma.com/TrainingGH.html
 
