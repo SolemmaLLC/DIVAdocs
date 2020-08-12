@@ -9,7 +9,7 @@ In a real building, shading devices are not all opened and closed at the same ti
 These shading controls can be implemented in any Climate-Based Metrics (DAYSIM) simulation and will affect the amount of available daylight, view to the outside, and any lighting control systems in the space.
 
 .. figure:: images/shadingSchedule.png
-   :scale: 80 %
+   :width: 800px
    :align: center
 
 *Example of an hourly shading schedule output from a DIVA climate-based simulation*

@@ -2,7 +2,7 @@ Installation
 ============
 
 Getting Started
-	We reoccmend that you go through the DIVA tutorials for `Rhino`_ and/or `Grasshopper`_ on the Solemma web site.
+	We recommend that you go through the DIVA tutorials for `Rhino`_ and/or `Grasshopper`_ on the Solemma web site.
 
 	What others have done with DIVA can be seen in the proceedings of our `Solemma Symposia/DIVA Days.`_ Please feel free to explore our user guide using the sidebar to the right.
 
