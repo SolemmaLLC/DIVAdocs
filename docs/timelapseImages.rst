@@ -30,6 +30,5 @@ To enter minutes for time step, enter the number as a decimal. For instance, to 
 
 Loop Over Solstice and Equinox Days
 	This sequence analyzes a user-determined hour on 3 dates: 6/21, 9/21, 12/21 (approximating the Summer and Winter Solstices and the Fall Equinox). For instance, if the user selects 10 for the hour, then three images will be produced at 10am on each of the three above dates.
-*Please note that only the Fall Equinox is used in this simulation (not the Spring Equinox).*
- 
- 
+
+*Please note that only the Fall Equinox is used in this simulation (not the Spring Equinox).*	
