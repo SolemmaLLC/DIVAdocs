@@ -8,7 +8,7 @@ The Toolbar
 After following the instructions in Installation, the DIVA toolbar will be visible within Rhinoceros. The toolbar contains four buttons: Location, Nodes, Materials, and Metrics. 
 
 .. figure:: images/toolbar.jpg
-   :scale: 150 %
+   :width: 500px
    :align: center
    
 *The four buttons of the DIVA 2.0 toolbar*
@@ -28,7 +28,7 @@ Nodes
 The sensor nodes are the points at which the light levels are calculated. 
 
 .. figure:: images/nodes.jpg
-   :scale: 150 %
+   :width: 500px
    :align: center
 
 *Nodes Button*
@@ -54,7 +54,7 @@ Materials
 Materials must be assigned to the project geometry in order for it to be analyzed for daylight or energy performance. 
 
 .. figure:: images/buttonmaterials.jpg
-   :scale: 120 %
+   :width: 500px
    :align: center
 
 *Materials button sub-menu*
@@ -62,7 +62,7 @@ Materials must be assigned to the project geometry in order for it to be analyze
 Once your project location and sensor grid is established, Radiance materials must be applied to layers in the Rhino model. Each layer that the user wants to include in the simulation needs to have a material associated with it. To assign materials, use the Materials button and the "Assign Materials" option. A small library of useful materials is included with DIVA, and will show up as options in the pull-down menus.
 
 .. figure:: images/materials.png
-   :scale: 100 %
+   :width: 500px
    :align: center
 
 *Materials Menu*

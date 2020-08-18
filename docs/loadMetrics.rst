@@ -16,13 +16,13 @@ Choose **Select Metric to Load** if loading a grid-based result.
 Choosing **Climate-Based Falsecolor** will allow an hourly temporal map of climate-based simulation results for a selected point.
 
 .. figure:: images/divaTest.png
-   :scale: 100 %
+   :width: 900px
    :align: center
 
 *A result of the climate-based falsecolor option*
 
 .. figure:: images/Dialogue.jpg
-   :scale: 100 %
+   :width: 400px
    :align: center
 
 *Load metrics dialog*

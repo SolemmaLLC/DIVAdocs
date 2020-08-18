@@ -7,7 +7,7 @@ Metrics
 ----------------------------------
 
 .. figure:: images/buttonmetrics.jpg
-   :scale: 120 %
+   :width: 500px
    :align: center
 
 *Metrics Button*
@@ -17,10 +17,6 @@ The Metrics button has two functions. Left-clicking the button brings up the dia
 The Radiance parameters are automatically set, however, there is always a text-editable box where you can edit your own Radiance parameters. Before doing so however, you should read carefully the Radiance documentation to learn more about the commands and their values. Information on that can be found `here.`_
 
 .. _here.:  https://floyd.lbl.gov/radiance/man_html/rtrace.1.html
-
-
-
-
 
 
 

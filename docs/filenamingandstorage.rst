@@ -8,7 +8,7 @@ File Naming in DIVA
 You are free to name your Rhino file whatever you like, and store it wherever you like on your computer. When you run DIVA, a results folder is created which stores all of your results files. This folder is created in the same folder that your Rhino file is stored, and is given the name of your Rhino file plus " - results". For example, say you name your file: **My House.3dm,** and you keep the file in **C:\\\Users\\\yourname\\\Documents\\\RhinoModels.**  When you run DIVA, a results file will be created in that folder called: **C:\\\Users\\\kera\\\Documents\\\RhinoModels\\\My House - DIVA\\\.** 
 
 .. figure:: images/folder.jpg
-   :scale: 100 %
+   :width: 900px
    :align: center
 
 *Contents of the results folder that DIVA creates for each Rhino file*

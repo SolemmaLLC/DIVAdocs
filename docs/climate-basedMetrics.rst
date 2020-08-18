@@ -8,7 +8,7 @@ Metrics \>>\ Daylight Grid Based \>>\ Climate-Based
 	Climate-Based Metrics use recorded climate data in the form of \*\.epw files to simulate the sun and sky conditions for various simulations including Daylight Autonomy, Daylight Availability, Continuous Daylight Autonomy and Useful Daylight Illuminance. The second important aspect of Climate-Based Metrics is that they are **annual** calculations which means they take the entire year into account. The metrics use Radiance and Daysim as their calculation engines.
 
 .. figure:: images/CBM.jpg
-   :scale: 100 %
+   :width: 600px
    :align: center
 
 *Metrics Menu: Climate-Based*

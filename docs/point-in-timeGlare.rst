@@ -6,14 +6,14 @@ Point-in-Time Glare
 Using  a point-in-time glare simulation in DIVA, the visual comfort of a person under the simulated conditions at the camera viewpoint can be simulated. The Daylight Glare Probability (DGP) metric is used in the comfort evaluation which considers the overall brightness of the view, position of 'glare' sources and visual contrast. 
 
 .. figure:: images/glare.png
-   :scale: 110 %
+   :width: 600px
    :align: center
 
 *Examples of visual comfort analysis in DIVA.*
 *Areas of high contrast (3 times the mean image luminance) are highlighted in color.*
 
 .. figure:: images/PointGlare.png
-   :scale: 100 %
+   :width: 400px
    :align: center
 
 *Metrics Menu: Point-in-Time Glare*

@@ -28,7 +28,7 @@ Viewing Grid-Based Results
 These files can be easily viewed in any basic text editor, such as Text Pad, or they can be imported into spreadsheet programs, like Excel, for analysis. First, let’s look at how we would import a .dat file into Excel.
 
 .. figure:: images/dat.png
-   :scale: 100 %
+   :width: 600px
    :align: center
    
 *DIVA Results Directory*
@@ -46,7 +46,7 @@ Understanding Grid-Based Results
 When you open any of these files, some parts are the same regardless of which file you look at.  All .DA files will have some basic information at the top which identify the name of the metric, and some basic information such as the design illuminance threshold. The other information common to all files is a series of lines at the end of the file, all preceded by “#”. There is one set of these lines for each set of nodes in your model (a nodegroup is the group of nodes associated with one surface in your model). For the most part, you don’t need this information. It is primarily used by DIVA for loading in files.
 
 .. figure:: images/Excel.png
-   :scale: 100%
+   :width: 400px
    :align: center
 
 *.da file in Excel*
