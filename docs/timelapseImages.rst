@@ -5,7 +5,7 @@ Metrics  >> Daylight Images >> Timelapse
 	This simulation was created to allow the user, with a single command, to run visualizations through a year, day or only on the Solstices and Fall Equinox. 
 
 .. figure:: images/timelapse.png
-   :scale: 80 %
+   :width: 600px
    :align: center
 
 Loop Over Months

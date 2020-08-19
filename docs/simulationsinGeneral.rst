@@ -20,7 +20,7 @@ And for Image-based simulations:
 - Image Size
 
 .. figure:: images/visualization.jpg
-   :scale: 80 %
+   :width: 600px
    :align: center
 
 *DIVA Simulation Menu*

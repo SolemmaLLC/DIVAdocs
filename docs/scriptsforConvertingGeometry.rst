@@ -35,5 +35,5 @@ There are 2 basic ways to load scripts in Rhino.
 - b) Type **LoadScript** in the command line --> Click **Add** and browse to the \*\.rvb script that you want to load --> Highlight the script in the LoadScript box --> Click **Load.** To run the script in the future, type **RunScript** in the command line and select and run the script.
 
 .. figure:: images/LoadScript.png
-   :scale: 100 %
+   :width: 400px
    :align: center

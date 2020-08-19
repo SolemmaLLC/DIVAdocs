@@ -11,7 +11,7 @@ Radiance, the simulation engine behind many of DIVA's metrics, is not only const
 of photometric data, with geometry in DIVA. This page serves as a tutorial for getting such data into DIVA.
 
 .. figure:: images/rendering.jpg
-   :scale: 80 %
+   :width: 900px
    :align: center
 
 *Illuminance rendering, calibrated for human perception (left) and falsecolor (right)*
@@ -40,7 +40,7 @@ Step 1: Setup the Luminaire Test Rhino Model
 Go ahead and open the luminaire_test_model Rhino model. Click through the Location, Nodes and Materials buttons. I assigned standard materials to the layers. I set the grid spacing to 0.125 meters in order to have a finely meshed grid to visualize the lighting distribution. 
 
 .. figure:: images/materials.jpg
-   :scale: 80 %
+   :width: 600px
    :align: center
    
 *Assign the default DIVA materials to your layers like so.*
@@ -48,7 +48,7 @@ Go ahead and open the luminaire_test_model Rhino model. Click through the Locati
 Next, let's make sure everything is setup correctly by running a simple visualization. This should look like the below rendering.
 
 .. figure:: images/luminaire.png
-   :scale: 80 %
+   :width: 900px
    :align: center
 
 *Test daylit rendering of the luminaire test room*
@@ -155,7 +155,7 @@ A Radiance-format four point polygon centered about X=0,Y=0 and slightly below Z
 The section described as, "Radiance material definitions that reference downlight.dat" can be copied directly into .\luminaire_test_model_* - DIVA\Resources\material.rad to be used with the current simulation project. The modified section of my file looks like below.
 
 .. figure:: images/materialdotrad.jpg
-   :scale: 65 %
+   :width: 900px
    :align: center
 
 *Amended material.rad file in the - DIVA\\\Resources\\\folder*
@@ -187,13 +187,13 @@ And replace the tabs separating the numbers with commas using find and replace,
 Finally, we can save this file as downlight.csv. Make the "downlight" layer already created in the file your active layer. Later we will assign the downlight illuminating material to this layer. To load the points into Rhino 5, just drag-and-drop the CSV file into the Rhino window, select "Import file," press "OK" and then press "OK" again, leaving the point import options as the defaults.
 
 .. figure:: images/import1.jpg
-   :scale: 100 %
+   :width: 600px
    :align: center
 
 *Select "Import file" when prompted.*
 
 .. figure:: images/import2.jpg
-   :scale: 77 %
+   :width: 600px
    :align: center
 
 *Leave the other options as the defaults and press "OK."*
@@ -205,7 +205,7 @@ Step 5: Finally Rendering Luminaires with Associated IES Information
 Run the Materials command again and apply the downlight_light material to the downlight layer that you created the polygon on.
 
 .. figure:: images/materialsLuminaire.jpg
-   :scale: 80 %
+   :width: 900px
    :align: center
 
 *Apply the appropriate materials created in Step 3 to your Rhino layers.*
@@ -213,7 +213,7 @@ Run the Materials command again and apply the downlight_light material to the do
 Finally at this point an image or grid-based simulation can be rendered! Make sure to set the time to a period when the sun isn't up, such as 23:00.
 
 .. figure:: images/settime.jpg
-   :scale: 80 %
+   :width: 900px
    :align: center
 
 *Set the time to a dark period such as 23, 11:00 PM*
@@ -237,7 +237,7 @@ This allows many of the default Radiance ambient parameters that deal with sampl
 **i,** illuminance boolean trigger: render an illuminance rather than a luminance image
 
 .. figure:: images/falsecolor.jpg
-   :scale: 100 %
+   :width: 900px
    :align: center
 
 *Falsecolor illuminance distribution of asymmetric downlight*

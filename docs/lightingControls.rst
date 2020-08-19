@@ -4,7 +4,7 @@ Lighting Controls
 **Materials >> Lighting Controls**
 
 .. figure:: images/lighting.png
-   :scale: 100 %
+   :width: 900px
    :align: center
 
 *Example lighting schedule output from a DIVA climate-based simulation*
@@ -12,7 +12,7 @@ Lighting Controls
 Lighting controls can be implemented in any Climate-Based Simulation, with or without dynamic shading devices. After running a climate-based analysis, hourly lighting schedules will be generated, and a falsecolor visualization of the schedules will be provided. 
 
 .. figure:: images/lightingInterface.png
-   :scale: 80 %
+   :width: 600px
    :align: center
 
 *Lighting Control Interface*

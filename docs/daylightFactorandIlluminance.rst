@@ -8,7 +8,7 @@ Metrics >> Daylight Grid Based >> Daylight Factor
 	A daylight factor is the ratio between exterior sky illuminance on an overcast day and illuminance inside a building. To run the metric, you must have first set up a sensor node grid using the **Nodes** button.
 	
 .. figure:: images/interface.png
-   :scale: 100 %
+   :width: 600px
    :align: center	
 
 *Metrics Menu: Daylight Factor*

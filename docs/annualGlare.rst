@@ -4,7 +4,7 @@ Annual Glare
 An annual glare calculation uses a similar methodology to a Point-in-Time Glare image; however, the process is repeated for each hour in the year by using an annual DAYSIM prediction to calculate vertical eye illuminance and images with the ambient calculation turned off to predict contrast from direct sunlight. This produces an annual evaluation of comfort within a space, pictured below.
 
 .. figure:: images/output.png
-   :scale: 100 %
+   :width: 900px
    :align: center
 
 *Output from an annual glare calculation with no dynamic shading devices*
@@ -14,7 +14,7 @@ A Warning Regarding Simulation Time
 Each annual glare simulation will respond to the dynamic shading controls specified in the Rhino file. If a complex dynamic shading system is defined, annual glare will be calculated for each state of the system. This can take a long time depending on the number of shading states and the complexity of the geometry. if you wish to absolve your computer of this computational responsibility, disable dynamic shading controls before running a simulation. This will illustrate visual comfort without shading. 
 
 .. figure:: images/annualGlare.png
-   :scale: 100%
+   :width: 600px
    :align: center
    
 *Metrics Menu: Annual Glare*

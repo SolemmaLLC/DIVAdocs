@@ -9,7 +9,7 @@ In a real building, shading devices are not all opened and closed at the same ti
 These shading controls can be implemented in any Climate-Based Metrics (DAYSIM) simulation and will affect the amount of available daylight, view to the outside, and any lighting control systems in the space.
 
 .. figure:: images/shadingSchedule.png
-   :width: 800px
+   :width: 900px
    :align: center
 
 *Example of an hourly shading schedule output from a DIVA climate-based simulation*
@@ -27,7 +27,7 @@ Conceptual Dynamic Shading
 Conceptual dynamic shading considers the operation of an idealized blind that covers all windows in the scene **without** the need for modeling the device geometrically. The effect of this blind is to reflect all direct sunlight and allow only 25% of diffuse sunlight into the space. Using conceptual shading is very fast and takes the same amount of time as running an identical simulation with no dynamic shading.Conceptual shading devices are limited in their control, and it can be considered that all are down or all are up at the same time. 
 
 .. figure:: images/conceptual.png
-   :scale: 100 %
+   :width: 900px
    :align: center
 
 *Choosing workplane sensors is necessary for results with dynamic shading to be meaningful.*
@@ -47,7 +47,7 @@ Mechanical shading systems take Rhinoceros layers as their input. For example, t
 .. _assign a material: https://divadocs.readthedocs.io/en/latest/docs/customRadiancematerials.html
 
 .. figure:: images/DynamicMechnaicalShading.jpg
-   :scale: 100 %
+   :width: 900px
    :align: center
 
 *A dynamic mechanical shading system for a venetian blind*
@@ -57,7 +57,7 @@ Switchable Dynamic Shading
 Switchable shading systems accept Radiance materials as inputs. For example, an electrochromic window system that transitions from clear to 30% transmission to 2% transmission would be defined using a **Base Glazing Material** of "EC_clear", a **State 1 Material** of "EC_Tinted30Percent" and a **State 2 Material** of "EC_Tinted02Percent."
 
 .. figure:: images/switchable.png
-   :scale: 100 %
+   :width: 900px
    :align: center
 
 *A dynamic switchable shading system*

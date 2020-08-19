@@ -3,7 +3,7 @@ Radiation Maps
 ================================================
 
 .. figure:: images/DIVARadiationMap.jpg
-   :scale: 80 %
+   :width: 900px
    :align: center
 
 *Example of a radiation map generated in DIVA using rpict and gencumulativesky*

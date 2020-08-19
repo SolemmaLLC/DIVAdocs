@@ -4,7 +4,7 @@ Radiation Maps-Grid Based
 DIVA-for-Rhino can generate climate-specific annual surface irradiation images or calculate annual irradiation at node locations. This is a powerful tool that can be used on an urban or building scale to identify locations with solar energy conversion potential or areas in need of shading due to excessive solar exposure. Comparing summer and winter period irradiation results could help optimize shading devices to maximize winter gain while minimizing summer exposure. 
 
 .. figure:: images/MapGrid.jpg
-   :scale: 70 %
+   :width: 900px
    :align: center
 
 *Grid-based Radiation Map Simulation Options*
